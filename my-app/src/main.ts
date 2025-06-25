@@ -7,7 +7,7 @@ up?.addEventListener("click", () => {
   if (scroll) {
     scroll.classList = "w-[50vw] h-[100vh]";
     scroll.innerHTML = `<div class=" grid grid-cols-1 place-items-center " >
-        <h2 class="text-[#220707] max-sm:text-[5vh] text-[7vh]  text-center my-[10vh]">Welcome</h2>
+        <h2 class="text-[#fff] max-sm:text-[5vh] text-[7vh]  text-center my-[10vh]">Welcome</h2>
         <div class="grid sm:grid-cols-1  place-items-center gap-[10px]">
           <input placeholder="Enter your name" type="text" id="name" class="bg-amber-50 rounded-xl">
           <div id="nameError"></div>
