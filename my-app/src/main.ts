@@ -5,7 +5,7 @@ const up = document.querySelector("#up"),
 up?.addEventListener("click", () => {
   
   if (scroll) {
-    scroll.classList = "w-[50vw] h-[100vh]";
+    scroll.className = "w-[50vw] h-[100vh]";
     scroll.innerHTML = `<div class=" grid grid-cols-1 place-items-center " >
         <h2 class="text-[#fff] max-sm:text-[5vh] text-[7vh]  text-center my-[10vh]">Welcome</h2>
         <div class="grid sm:grid-cols-1  place-items-center gap-[10px]">
@@ -32,7 +32,7 @@ up?.addEventListener("click", () => {
 
 inn?.addEventListener("click", () => {
   if (scroll) {
-    scroll.classList = "w-[50vw] h-[100vh]";
+    scroll.className = "w-[50vw] h-[100vh]";
     scroll.innerHTML = `<div class=" grid grid-cols-1 place-items-center " >
         <h2 class="text-[white] max-sm:text-[5vh] text-[7vh]  text-center my-[10vh]">Welcome back</h2>
         <div class="grid sm:grid-cols-1  place-items-center gap-[1vh]">
